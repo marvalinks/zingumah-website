@@ -24,6 +24,7 @@
         <link rel="stylesheet" href="/css/icomoon.css" />
         <link rel="stylesheet" href="/css/main.css" class="color-switcher-link" />
         <link rel="stylesheet" href="/css/shop.css" class="color-switcher-link" />
+        <link rel="stylesheet" href="/css/override.css" />
         <script src="/js/vendor/modernizr-2.6.2.min.js"></script>
 
         <!--[if lt IE 9]>
@@ -848,135 +849,50 @@
                 </section>
 
 
-                <footer class="page_footer text-center c-gutter-100 text-sm-left ds">
+                <footer class="page_footer text-center text-sm-left ds s-pt-55 s-pb-60 s-pt-md-85 s-pb-md-90 s-pt-lg-125 s-pb-lg-130 s-pt-xl-160 s-pb-xl-155 c-gutter-30 s-parallax c-mb-50 c-mb-lg-0" style="background-position: 50% -15px;">
                     <div class="container">
                         <div class="row justify-content-center">
 
-                            <div class="col-lg-4 col-md-6 order-1 order-lg-1 animate" data-animation="fadeInUp">
-                                <div
-                                    class="fw-divider-space divider-xl-160 divider-lg-130 divider-md-90 divider-60"
-                                ></div>
-
+                            <div class="col-lg-4 col-md-6 animate animated fadeInUp" data-animation="fadeInUp">
                                 <a href="./" class="logo">
-                                    <img src="/images/logo.png" alt="" />
+                                    <img src="images/logo.png" alt="">
                                     <span class="d-flex flex-column">
                                         <span class="logo-text color-darkgrey">zingumah</span>
                                         <span class="logo-subtext">resources limited</span>
                                     </span>
                                 </a>
 
-                                <p>
-                                    Zingumah Resources Limited is focused on advancing the Anyankyirem Gold Project in Ghana’s Obuasi district, delivering long-term shareholder value through disciplined development and responsible mining.
-                                </p>
+                                <div class="widget widget_mailchimp">
+                                    <p>
+                                        Subscribe for investor updates & project announcements
+                                    </p>
+
+                                    <form class="signup" action="/">
+                                        <label for="mailchimp_email">
+                                            <span class="screen-reader-text">Subscribe:</span>
+                                        </label>
+
+                                        <input id="mailchimp_email" name="email" type="email" class="form-control mailchimp_email" placeholder="Email Address">
+
+                                        <button type="submit" class="search-submit">
+                                            <span class="screen-reader-text">Subscribe</span>
+                                        </button>
+
+                                        <div class="response"></div>
+                                    </form>
+                                </div>
 
                                 <a href="#" class="fab fa-facebook-f rounded-icon bg-icon fs-16" title="facebook"></a>
                                 <a href="#" class="fab fa-twitter rounded-icon bg-icon fs-16" title="twitter"></a>
                                 <a href="#" class="fab fa-linkedin-in rounded-icon bg-icon fs-16" title="linkedin"></a>
                                 <a href="#" class="fab fa-instagram rounded-icon bg-icon fs-16" title="instagram"></a>
-
-                                <div
-                                    class="fw-divider-space divider-xl-160 divider-lg-130 divider-md-60 divider-30"
-                                ></div>
                             </div>
 
-                            <div
-                                class="col-lg-4 col-md-12 ls order-3 order-lg-2 footer-special-column text-center animate"
-                                data-animation="fadeInUp"
-                            >
-                                <div class="form-wrapper">
-                                    <form class="contact-form" method="post" action="/">
-                                        <div class="row c-mb-20">
-                                            <div class="col-12 form-title text-center form-builder-item">
-                                                <div class="header title">
-                                                    <h2>Investor Contact</h2>
-                                                </div>
-                                            </div>
-                                        </div>
-
-                                        <div class="row c-mb-10 c-gutter-10">
-                                            <div class="col-lg-12 text-center">
-                                                <div class="form-group has-placeholder">
-                                                    <label for="name22335x5553">
-                                                        Full Name <span class="required">*</span>
-                                                    </label>
-                                                    <input
-                                                        type="text"
-                                                        aria-required="true"
-                                                        size="30"
-                                                        value=""
-                                                        name="name"
-                                                        id="name22335x5553"
-                                                        class="form-control"
-                                                        placeholder="Full Name"
-                                                    />
-                                                </div>
-                                            </div>
-                                        </div>
-
-                                        <div class="row c-mb-10 c-gutter-10">
-                                            <div class="col-lg-12 text-center">
-                                                <div class="form-group has-placeholder">
-                                                    <label for="name223355553">
-                                                        Phone Number <span class="required">*</span>
-                                                    </label>
-
-                                                    <input
-                                                        type="text"
-                                                        aria-required="true"
-                                                        size="30"
-                                                        value=""
-                                                        name="phone"
-                                                        id="name223355553"
-                                                        class="form-control"
-                                                        placeholder="Phone Number"
-                                                    />
-                                                </div>
-                                            </div>
-                                        </div>
-
-                                        <div class="row c-mb-10 c-gutter-10">
-                                            <div class="col-sm-12 text-center">
-                                                <div class="form-group has-placeholder">
-                                                    <label for="message22335553">Message</label>
-
-                                                    <textarea
-                                                        aria-required="true"
-                                                        rows="6"
-                                                        cols="45"
-                                                        name="message"
-                                                        id="message22335553"
-                                                        class="form-control"
-                                                        placeholder="Request investor presentation, site visit, or IR information"
-                                                    ></textarea>
-                                                </div>
-                                            </div>
-                                        </div>
-
-                                        <div class="row c-mb-10 c-gutter-10">
-                                            <div class="col-sm-12 mb-0 mt-50">
-                                                <div class="form-group">
-                                                    <input
-                                                        class="btn btn-gradient big-btn"
-                                                        type="submit"
-                                                        value="Send message"
-                                                    />
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </form>
-                                </div>
-
-                                <h6 class="fs-12 text-uppercase">
-                                    &copy; Copyright <span class="copyright_year">2026</span> All Rights Reserved
-                                </h6>
-                            </div>
-
-                            <div class="col-lg-4 col-md-6 order-2 order-lg-3 animate" data-animation="fadeInUp">
-                                <div class="fw-divider-space divider-xl-160 divider-lg-130 divider-md-90"></div>
-
+                            <div class="col-lg-3 col-md-6 animate animated fadeInUp" data-animation="fadeInUp">
                                 <div class="widget widget_icons_list">
-                                    <ul>
+                                    <h3 class="widget-title">Contact Detail</h3>
 
+                                    <ul>
                                         <li class="icon-inline">
                                             <div class="icon-styled icon-top bordered round fs-16">
                                                 <i class="fas fa-phone"></i>
@@ -988,11 +904,7 @@
                                             <div class="icon-styled icon-top bordered round fs-16">
                                                 <i class="fas fa-envelope"></i>
                                             </div>
-                                            <p>
-                                                <a href="mailto:bubune.kofi@gmail.com">
-                                                    bubune.kofi@gmail.com
-                                                </a>
-                                            </p>
+                                            <p>bubune.kofi@gmail.com</p>
                                         </li>
 
                                         <li class="icon-inline">
@@ -1000,27 +912,56 @@
                                                 <i class="fas fa-map-marker-alt"></i>
                                             </div>
                                             <p>
-                                                Accra, Ghana<br />
-                                                Investor Relations Office
+                                                <a href="#">
+                                                    Accra, Ghana<br>
+                                                    Investor Relations Office
+                                                </a>
                                             </p>
                                         </li>
-
-                                        <li class="icon-inline">
-                                            <div class="icon-styled icon-top bordered round fs-16">
-                                                <i class="fas fa-clock"></i>
-                                            </div>
-                                            <p>
-                                                Mon - Fri: 8:00am - 5:00pm<br />
-                                                Investor Support Available
-                                            </p>
-                                        </li>
-
                                     </ul>
                                 </div>
+                            </div>
 
-                                <div
-                                    class="fw-divider-space divider-xl-160 divider-lg-130 divider-md-60 divider-30"
-                                ></div>
+                            <div class="col-lg-2 col-md-6 animate animated fadeInUp" data-animation="fadeInUp">
+                                <div class="widget widget_nav_menu mb-0">
+                                    <h3 class="widget-title">Quick Links</h3>
+
+                                    <ul class="list-unstyled">
+                                        <li>
+                                            <a href="#overview">Project Overview</a>
+                                        </li>
+                                        <li>
+                                            <a href="#resources">Resources</a>
+                                        </li>
+                                        <li>
+                                            <a href="#investors">Investors</a>
+                                        </li>
+                                        <li>
+                                            <a href="#contact">Contact Us</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-3 col-md-6 animate animated fadeInUp" data-animation="fadeInUp">
+                                <div class="widget widget_nav_menu mb-0">
+                                    <h3 class="widget-title">Project Highlights</h3>
+
+                                    <ul class="list-unstyled">
+                                        <li>
+                                            <a href="#">761K oz Mineral Resource</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">US$130M NPV (8%)</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">35.7% IRR</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">497K oz Production Profile</a>
+                                        </li>
+                                    </ul>
+                                </div>
                             </div>
 
                         </div>

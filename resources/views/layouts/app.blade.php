@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="/css/icomoon.css" />
     <link rel="stylesheet" href="/css/main.css" />
     <link rel="stylesheet" href="/css/shop.css" />
+    <link rel="stylesheet" href="/css/override.css" />
 </head>
 
 <body>
