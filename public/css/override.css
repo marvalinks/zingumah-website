@@ -1,3 +1,10 @@
 .page_header{
     background: #073a4f !important;
 }
+
+*{
+    font-family: "Jost", sans-serif!important;
+}
+.hero{
+    margin-top: 50px;
+}
